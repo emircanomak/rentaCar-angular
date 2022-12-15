@@ -1,0 +1,27 @@
+
+           <div class="card mb-3 mt-3 " style="max-width: 540px;">
+                <div class="row g-0" *ngFor="let car of cars">
+                  <div class="col-md-4">
+                    <img src="{{car.imageUrl}}" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body ">
+                      <h5 class="card-title">
+                        {{car.description}}
+                      </h5>
+                      <h6>
+                        {{car.plate}}
+                      </h6>
+                      <h6>
+                        {{car.state}}
+                      </h6>
+                      <h6>
+                        {{car.unitPrice}}
+                      </h6>
+                      <!-- <h6>
+                        {{car.unitPrice}}
+                      </h6> -->
+                      <button type="button"routerLink="" class="btn btn-primary">Geri Dön</button>
+                      <button type="button"routerLink="/carupdate/{{car.id}}" class="btn btn-primary">Güncelle</button>
+
+                      <!-- <button (click)="update()"  class="btn btn-primary">Değişiklikleri Kaydet</button> -->

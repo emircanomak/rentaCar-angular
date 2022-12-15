@@ -1,0 +1,9 @@
+ <h3>Renk Seçiniz</h3>
+
+<div class="form-check mx-3 " *ngFor="let color of colors">  
+    <input (click)="selectColors(color)" routerLink="color/{{color.colorId}}"class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label  class="form-check-label" for="flexCheckIndeterminate">
+        {{color.color}}
+        
+    </label>
+  </div>

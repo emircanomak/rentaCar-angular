@@ -1,0 +1,28 @@
+
+  <div class="container">
+
+      <label for="filterText" class="filterText"></label>
+      <input type="text" class="input ml-1" [(ngModel)]= "filterBrands" [ngModelOptions]="{standalone:true}" id="exampleFormControlInput1" placeholder="Kategori Ara">
+      
+    <div *ngIf="filterBrands">
+    {{filterBrands}} aradınız
+    </div>
+
+ <ul class="list-group">
+        
+    <li (click)="selectBrands(brand)" routerLink="brands/{{brand.id}}" class="list-group-item" *ngFor=" let brand of brands |brandSearch:filterBrands">
+     
+      <h5>{{brand.name}}</h5>  
+
+       <div class="button">
+        <button class="btn btn-primary mx-2" (click)="delete(brand)" type="submit">Sil</button>
+       <button class="btn btn-primary" type="submit">Güncelle</button>
+       </div>
+        
+    </li> 
+
+</ul> 
+
+
+</div>
+ 

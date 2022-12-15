@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row">
+    <div class="mb-3">
+      <label for="filterText" class="filterText"></label>
+      <input type="text" class="input" [(ngModel)]= "filterText" [ngModelOptions]="{standalone:true}" id="exampleFormControlInput1" placeholder="Ara">
+    </div>
+    <div *ngIf="filterText">
+    {{filterText}} aradınız
+    </div>
+    <div class="card" style="width: 18rem;" *ngFor="let car of cars |searchPipe:filterText">
+  <img src="{{car.imageUrl}}" class="card-img-top" alt="...">
+  <div class="card-body ">
+    <tbody>
+      <h5 class="card-title">
+        {{car.description }}
+      </h5>
+    <p class="card-text">
+      
+      {{car.unitPrice  }}
+    </p>
+
+
+    <button  class="card-button" (click)="selectDetail(car)" routerLink="carsdetail/{{car.id}}" href="#" >Detay</button>
+
+    <i class="bi bi-trash3-fill" (click)="delete(car)" type="submit"></i>
+
+    <!-- <button class="delete-button" (click)="delete(car)" type="submit">Sil</button> -->
+    
+ </tbody>
+</div>
+  </div>
+  </div>
+
+</div>
+
+
+

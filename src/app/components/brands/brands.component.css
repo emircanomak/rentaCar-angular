@@ -1,0 +1,44 @@
+
+.list-group{
+    margin-top: 10px;
+    width: 70%;
+
+}
+.button{
+    display:flex;
+    width: 5px;
+    padding: 20px;
+}
+
+ul{
+    width: 18rem;
+}
+button{
+    display: flex;
+    width: 5rem;
+}
+.input {
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #e8e8e8;
+    box-shadow: 6px 6px 12px #ffffff,
+                -6px -6px 12px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 200px;
+  
+   }
+     
+   .input:focus {
+    place-content: "Enter your message!";
+  
+   }
+   .input:hover{
+    outline-color: #008bf8;
+    box-shadow: 0 4px 18px 0 #008bf8;
+    
+  
+   }

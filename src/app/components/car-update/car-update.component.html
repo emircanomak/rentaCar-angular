@@ -1,0 +1,68 @@
+<div class="content">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="title">Güncelle</h5>
+            </div>
+            <div class="card-body">
+               
+                <form [formGroup]= "carUpdateForm" *ngIf="cars" (ngSubmit)="updateCar()">
+                    <div class="form-group">
+                        <input type="text"
+                         id="description" 
+                        formControlName="description"
+                        class="form-control" 
+                        placeholder="Araç Markası"
+                        />
+                        <input type="text"
+                         id="plate" 
+                        formControlName="plate"
+                        class="form-control" 
+                        placeholder="Araç Plakası"
+                        />
+                        <input type="text"
+                         id="state" 
+                        formControlName="state"
+                        class="form-control" 
+                        placeholder="Araç Adedi"
+                        />
+                        <input type="text"
+                         id="imageUrl" 
+                        formControlName="imageUrl"
+                        class="form-control" 
+                        placeholder="Araç Resmi"
+                        />
+                        <input type="text"
+                         id="unitPrice" 
+                        formControlName="unitPrice"
+                        class="form-control" 
+                        placeholder="Fiyat "
+                        />
+                        <input type="number"
+                        id="brandId" 
+                       formControlName="brandId"
+                       class="form-control" 
+                       placeholder="brandId "
+                       />
+                       <input type="number"
+                       id="colorId" 
+                      formControlName="colorId"
+                      class="form-control" 
+                      placeholder="colorId "
+                      />
+                        
+                        <div>
+                         <button class="btn btn-primary"  (click)="updateCar()" type="submit">Ekle</button>
+
+                        </div>
+
+
+                    </div>
+                </form> 
+            </div>
+        </div>
+       
+    </div>
+    
+
+</div>
