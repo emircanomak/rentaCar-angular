@@ -1,2 +1,2 @@
 ### Home Page<br/>
-<img src=" https://github.com/emircanomak/rentaCar/blob/master/rent.png" width="auto"><br/> 
+<img src="https://github.com/emircanomak/rentaCar/blob/master/rent.png" width="auto"><br/> 
