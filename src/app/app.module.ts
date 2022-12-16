@@ -17,6 +17,8 @@ import { BrandUpdateComponent } from './components/brand-update/brand-update.com
 import { BrandSearchPipe } from './pipes/brand-search.pipe';
 import { ColorsComponent } from './components/colors/colors.component';
 import { FooterComponent } from './layouts/footer/footer/footer.component';
+import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -36,6 +38,8 @@ import { FooterComponent } from './layouts/footer/footer/footer.component';
     BrandSearchPipe,
     ColorsComponent,
     FooterComponent,
+    RegisterComponent,
+    LoginComponent,
    
   
   ],
