@@ -16,7 +16,6 @@ import { CarUpdateComponent } from './components/car-update/car-update.component
 import { BrandUpdateComponent } from './components/brand-update/brand-update.component';
 import { BrandSearchPipe } from './pipes/brand-search.pipe';
 import { ColorsComponent } from './components/colors/colors.component';
-import { FooterComponent } from './layouts/footer/footer/footer.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 
@@ -37,7 +36,6 @@ import { LoginComponent } from './components/login/login.component';
     BrandUpdateComponent,
     BrandSearchPipe,
     ColorsComponent,
-    FooterComponent,
     RegisterComponent,
     LoginComponent,
    
