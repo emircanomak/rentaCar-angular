@@ -1,0 +1,161 @@
+{
+  "brands": [
+    {
+      "name": "Mercedes",
+      "id": 1
+    },
+    {
+      "name": "Audi",
+      "id": 2
+    },
+    {
+      "name": "BMW",
+      "id": 3
+    },
+    {
+      "name": "Porsche",
+      "id": 4
+    },
+    {
+      "name": "Honda",
+      "id": 5
+    },
+    {
+      "name": "Ford",
+      "id": 6
+    }
+  ],
+  "cars": [
+    {
+      "description": "C180",
+      "plate": "34EMR44",
+      "state": "2",
+      "imageUrl": "https://www.fuatotokiralama.com/Images/LX8E9D7D16A98171E5482346A36C166285DE888CAC23ACA5C5.jpg",
+      "unitPrice": "9850",
+      "brandId": 1,
+      "colorId": 1,
+      "id": 1
+    },
+    {
+      "description": "A6",
+      "plate": "34 EMR 34",
+      "state": "1",
+      "imageUrl": "https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHkCFmeQZWMpTkwoYgSrcmLgycxPTU_VBAvyM3IlmuqkVJbp5qbn57EBpQZ7zK-pWxKgfutLh_37Sgevn506TXlbNwDOzasmdlaLxDAnbZRQNGxY9q9tybDIDj8Ib4ZZD0eFey3w8v4Xt_j9tdZMHCwNPnF-I35pLN7dOXJQb9Fxfcb8P5ylPBh7hI1ZnN-46X3zkkcW3Ln350Jdvbb0YeILnFlu-0Nh4rHqz5hwl9y3Sz2y3Ac3dzSKY290VFPaD19SkK_yjtWSp1lsGHrcog9sMj-UzBBx1ks8wr3rIdvvTOgaegjrbRw-uLa_4K-539sdRXwPBjMObGXjCUt-e4L0hwsToluPrLHXt3nJTM0YGniuqEY05vnzyVx9zvnwwi83RrH8_OwPPPMaP-__cF5iusESy59USYWmT1_cVGHi2vjJ7_SV3pafeFcvV71ZZPTF6MbmWged4CR_Daq-M5Q9PenfLJC-6G6u9to6Bh-nda_1TVmwcS1ZOyZ-wobdm5_vAbQw8tU945kfumdl7L3q3afEmV8ULs65FMvA4GfwPmbqf_1rED9f68NdRJxuezUhiYAVGDeM6IMH8DkjwugAJjoMMYBIUaSYg6UgQn_UNMwMDtwMDA1sIAwjwCZcW5RQkFiXm6hWlFhfk5xVnlqUKahgQCYRZfRwjXYMAJQ80Y1ICAAA?mimetype=image/png",
+      "unitPrice": "3000",
+      "brandId": 2,
+      "colorId": 2,
+      "id": 2
+    },
+    {
+      "description": "520İ",
+      "brandId": 3,
+      "plate": "34 EZC 1903",
+      "state": "5",
+      "imageUrl": "https://autos.yahoo.com.tw/p/r/w880/car-trim/October2020/761f9bbcb2e3b084190e9f81d1553e33.jpeg",
+      "unitPrice": "7410",
+      "colorId": 1,
+      "id": 3
+    },
+    {
+      "description": "Cayenne",
+      "plate": "34 SAD 58",
+      "state": "1",
+      "imageUrl": "https://images.hgmsites.net/lrg/2020-porsche-cayenne-coupe-awd-angular-front-exterior-view_100787314_l.jpg",
+      "unitPrice": "15000",
+      "brandId": 4,
+      "colorId": 3,
+      "id": 4
+    },
+    {
+      "description": "Panamera",
+      "plate": "34EMR44",
+      "state": "3",
+      "imageUrl": "https://www.ccarprice.com/products/Porsche_Panamera_4S_2022.jpg",
+      "unitPrice": "8500",
+      "brandId": 4,
+      "colorId": 1,
+      "id": 6
+    },
+    {
+      "description": "G63",
+      "plate": "34EMR44",
+      "state": "3",
+      "imageUrl": "https://img.cintamobil.com/crop/730x410/2021/10/21/cWC5a43e/g-class-925e.png",
+      "unitPrice": "15000",
+      "brandId": 1,
+      "colorId": 2,
+      "id": 8
+    },
+    {
+      "description": "Q8",
+      "plate": "34EMR44",
+      "state": "3",
+      "imageUrl": "https://fuse-box.info/wp-content/uploads/2020/04/Audi-Q8-2019-2020....jpg",
+      "unitPrice": "7500",
+      "brandId": 2,
+      "colorId": 1,
+      "id": 9
+    },
+    {
+      "description": "Focus",
+      "plate": "34EMR44",
+      "state": "2",
+      "imageUrl": "https://d2q9glkb4gi2qe.cloudfront.net/cdn/client/public/article/e0503fa6a7c7f0ec61b43e7394e21c94.webp",
+      "unitPrice": "7650",
+      "brandId": 6,
+      "colorId": 1,
+      "id": 10
+    },
+    {
+      "description": "Civic",
+      "plate": "34EMR44",
+      "state": "6",
+      "imageUrl": "https://hondavinh.net/wp-content/uploads/2020/08/civic-den-1.png",
+      "unitPrice": "8960",
+      "brandId": 5,
+      "colorId": "",
+      "id": 11
+    }
+  ],
+  "colors": [
+    {
+      "color": "white",
+      "colorId": 1
+    },
+    {
+      "color": "black",
+      "colorId": 2
+    },
+    {
+      "color": "red",
+      "colorId": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "abc@hotmail.com",
+      "name": "Emir",
+      "lastName": "Omak",
+      "password": "1234e",
+      "id": 1,
+      "token": "HTRDASD34345ASDASK",
+      "expiration": "01/01/2022"
+    },
+    {
+      "email": "asd",
+      "name": "asd",
+      "lastName": "asd",
+      "password": "asd",
+      "id": 2,
+      "token": "HTRDASD34345ASDASK",
+      "expiration": "01/01/2022"
+    },
+    {
+      "email": "emir@.com",
+      "name": "Emir",
+      "lastName": "Omak",
+      "password": "123",
+      "id": 3
+    }
+  ]
+}

@@ -24,13 +24,6 @@ export class CarsDetailComponent {
 
 
 
-    //   if(params["id"]){
-    //     this.getCarsByDetail(params["id"])
-    //   // }else{
-    //   //   console.log("Gelmedi")
-    //   // }
-
-
     })
 
   }
@@ -42,14 +35,6 @@ export class CarsDetailComponent {
   }
   
 
-  // update():void {
-
-  //   this.carsService.update(this.cars).subscribe(()=>{
-  //       this.location.back();
-  //   })
-    
-     
-  // }
   
 
 }

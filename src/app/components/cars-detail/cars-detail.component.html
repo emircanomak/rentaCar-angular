@@ -1,27 +1,30 @@
-
-           <div class="card mb-3 mt-3 " style="max-width: 540px;">
-                <div class="row g-0" *ngFor="let car of cars">
-                  <div class="col-md-4">
-                    <img src="{{car.imageUrl}}" class="img-fluid rounded-start" alt="...">
+          <div class="container">
+            <div class="card mb-3 mt-3 " style="max-width: 540px;">
+              <div class="row g-0" *ngFor="let car of cars">
+                <div class="col-md-12">
+                  <img src="{{car.imageUrl}}" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-12 mx-2 ">
+                  <div class="card-body ">
+                    <h5 class="card-title">
+                      {{car.description}}
+                    </h5>
+                    <h6> Araç Plakası : 
+                      {{car.plate}}
+                    </h6>
+                    <h6> Araç Adedi : 
+                      {{car.state}}
+                    </h6>
+                    <h6> Kiralama Fiyatı : 
+                      {{car.unitPrice}}₺
+                    </h6>
+                   
+                    <button type="button"routerLink="" class="btn btn-primary mx-2">Geri Dön</button>
+                    <button type="button"routerLink="/carupdate/{{car.id}}" class="btn btn-primary">Güncelle</button>
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body ">
-                      <h5 class="card-title">
-                        {{car.description}}
-                      </h5>
-                      <h6>
-                        {{car.plate}}
-                      </h6>
-                      <h6>
-                        {{car.state}}
-                      </h6>
-                      <h6>
-                        {{car.unitPrice}}
-                      </h6>
-                      <!-- <h6>
-                        {{car.unitPrice}}
-                      </h6> -->
-                      <button type="button"routerLink="" class="btn btn-primary">Geri Dön</button>
-                      <button type="button"routerLink="/carupdate/{{car.id}}" class="btn btn-primary">Güncelle</button>
+                </div>
+              </div>
+         </div>
 
-                      <!-- <button (click)="update()"  class="btn btn-primary">Değişiklikleri Kaydet</button> -->
+          </div>
+          
