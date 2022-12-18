@@ -21,17 +21,6 @@ export class CarsComponent {
   ngOnInit():void {
 
     this.activatedRoute.params.subscribe(params=>{
-      // if(params["id"]){
-      //   this.getCarsById(params["id"]);
-      // }
-      // else if(params["brandId"]){
-      //   this.getCarsByBrandId(params["brandId"])
-      // }
-      // else if(params["colorId"]){
-      //   this.getColorsById(params["colorId"])
-      // } 
-      // else {this.getCars()}
-
        this.getCars();
     })
       
