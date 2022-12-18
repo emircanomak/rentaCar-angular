@@ -4,14 +4,14 @@
 <img src="https://github.com/emircanomak/rentaCar/blob/master/assets/main3.png">
 </hr>
 <hr>
-## Detail Page
+## Detail Page<br/>
 <img src="https://github.com/emircanomak/rentaCar/blob/master/assets/cardetail.png">
 </hr>
 <hr>
-## Login Page
+## Login Page<br/>
 <img src="https://github.com/emircanomak/rentaCar/blob/master/assets/login.png">
 </hr>
 <hr>
-## Register Page
+## Register Page<br/>
 <img src="https://github.com/emircanomak/rentaCar/blob/master/assets/register.png">
 </hr>
