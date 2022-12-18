@@ -4,7 +4,7 @@
 <img src="https://github.com/emircanomak/rentaCar/blob/master/assets/main3.png">
 </hr>
 <hr>
-### Detail Page
+### Login Page
 <img src="https://github.com/emircanomak/rentaCar/blob/master/assets/cardetail.png">
 </hr>
 <hr>
