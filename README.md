@@ -8,7 +8,7 @@ I'm currently developing this project...*
 ### Home Page<br/>
 <img src="https://github.com/emircanomak/rentaCar/blob/master/assets/main.png"><br/> 
 <hr>
-<img src="https://github.com/emircanomak/rentaCar/blob/master/assets/main3.png">
+<img src="https://github.com/emircanomak/rentaCar/blob/master/assets/main2.png">
 <hr/>
 <hr>
 ### Detail Page<br/>
